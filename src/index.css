@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  height: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  color: white;
+  font-size: 2em;
+  background-image: url("assets/img/elena-mozhvilo-e_lbA4JijqQ-unsplash.jpg");
+}
+
+main {
+  height: 80%;
+  background-color: rgb(19, 19, 206);
+}
+
+li {
+  list-style: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
