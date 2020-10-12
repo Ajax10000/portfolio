@@ -1,12 +1,17 @@
 import React from "react";
 import Nav from "../Nav";
 
-function Header() {
+function Header(props) {
+    const {
+        aboutSelected, contactSelected, portfolioSelected, resumeSelected,
+        setLnkSelected
+    } = props;
 
     return (
         <header>
-            <h2 className="float-left">David de Leon</h2>
-            <Nav />
+            <Nav aboutSelected={aboutSelected} contactSelected={contactSelected}
+                portfolioSelected={portfolioSelected} resumeSelected={resumeSelected}
+                setLnkSelected={setLnkSelected} />
         </header>
     )
 }
